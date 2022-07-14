@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+#file{
+    display: none;
+}
+.header{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    background-color: rgb(0, 94, 226);
+    
+
+}
+.btn{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(0, 94, 226);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s all linear;
+}
+.heading{
+    color: white;
+    text-decoration: underline;
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(0, 94, 226) ;
+}
+.pdf{
+    height: 90vh;
+}
